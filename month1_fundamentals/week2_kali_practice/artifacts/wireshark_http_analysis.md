@@ -1,6 +1,9 @@
 # Wireshark HTTP Analysis
 ## Filter
 http.request.method == "GET"
+DNS
+http
+tcp.port==80
 ## Observation
 - Request to `/dvwa/login.php`
 - User-Agent: `Mozilla/5.0`
