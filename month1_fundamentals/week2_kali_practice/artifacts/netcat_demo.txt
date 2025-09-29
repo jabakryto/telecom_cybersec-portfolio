@@ -1,6 +1,19 @@
+ HEAD
 # Netcat Demo
 ## Listener (on target)
 nc -lvnp 4444
 ## Client (on attacker)
 nc 192.0.2.60 4444
 > Used for simple reverse shells or data transfer.
+
+
+Netcat Demo
+Listener (on target)
+nc -lvnp 4444
+
+Client (on attacker)
+nc 192.0.2.60 4444
+
+Used for simple reverse shells or data transfer.
+EOF 
+ 477d6c4 (Month 2: Week 5 — SOC analysis (MITRE ATT&CK, Sigma, log analysis))

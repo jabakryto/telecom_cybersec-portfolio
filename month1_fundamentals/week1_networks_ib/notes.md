@@ -1,5 +1,10 @@
 # Week 1: Networks & Cybersecurity Fundamentals
+ HEAD
 ## 📡 Networking Basics
+
+## 📡 Networking Basics
+
+>>>>>>> 477d6c4 (Month 2: Week 5 — SOC analysis (MITRE ATT&CK, Sigma, log analysis))
 ### OSI Model (7 layers)
 1. **Physical** – кабели, сигналы, биты  
 2. **Data Link** – MAC-адреса, коммутация (Ethernet, Wi-Fi)  
@@ -8,11 +13,16 @@
 5. **Session** – управление сессиями  
 6. **Presentation** – кодирование, шифрование  
 7. **Application** – HTTP, DNS, FTP
+ HEAD
+
+
+>>>>>>> 477d6c4 (Month 2: Week 5 — SOC analysis (MITRE ATT&CK, Sigma, log analysis))
 ### IP Addressing
 - **IP**: `192.0.2.10` (RFC 5737 — для документации)
 - **Gateway**: `192.0.2.1`
 - **DNS**: `8.8.8.8`
 - **Ports**: 22 (SSH), 80 (HTTP), 443 (HTTPS)
+<<<<<<< HEAD
 ## 🔒 Cybersecurity Fundamentals
 ### CIA Triad
 - **Confidentiality**, **Integrity**, **Availability**
@@ -20,10 +30,25 @@
 - Injection, Broken Auth, XSS, SSRF, Security Misconfig
 ### Attacks
 - **DDoS**, **MITM**, **Phishing**, **Brute Force**
+
+
+## 🔒 Cybersecurity Fundamentals
+
+### CIA Triad
+- **Confidentiality**, **Integrity**, **Availability**
+
+### OWASP Top 10
+- Injection, Broken Auth, XSS, SSRF, Security Misconfig
+
+### Attacks
+- **DDoS**, **MITM**, **Phishing**, **Brute Force**
+
+>>>>>>> 477d6c4 (Month 2: Week 5 — SOC analysis (MITRE ATT&CK, Sigma, log analysis))
 ## 🐧 Linux Basics
 - `/etc` – configs
 - `/var/log` – logs
 - `grep`, `cat`, `ls`, `chmod` – essential commands
+ HEAD
 # Week 1: Networks & Cybersecurity Fundamentals
 ## 📡 Networking Basics
 ### OSI Model (7 layers)
@@ -75,3 +100,5 @@
 - `/var/log` – системные логи  
 - `/home` – пользовательские файлы  
 - Команды: `ls`, `cd`, `cat`, `grep`, `chmod`, `ps`
+
+>>>>>>> 477d6c4 (Month 2: Week 5 — SOC analysis (MITRE ATT&CK, Sigma, log analysis))
