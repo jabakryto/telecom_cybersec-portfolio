@@ -1,0 +1,10 @@
+
+Netcat Demo
+Listener (on target)
+nc -lvnp 4444
+
+Client (on attacker)
+nc 192.0.2.60 4444
+
+Used for simple reverse shells or data transfer.
+EOF 
