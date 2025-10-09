@@ -1,10 +1,10 @@
-# Nmap 7.95 scan initiated Wed Oct  8 07:00:01 2025 as: /usr/lib/nmap/nmap -sn -oN /home/kali123/telecom_sec/kali-network-audit/outputs/ping-scan.txt 192.168.0.0/24
-Nmap scan report for 192.168.0.1
+# Nmap 7.95 scan initiated Wed Oct  8 07:00:01 2025 as: /usr/lib/nmap/nmap -sn -oN /home/kali123/telecom_sec/kali-network-audit/outputs/ping-scan.txt 192.168.x.x/24
+Nmap scan report for 192.168.x.x
 Host is up (0.00038s latency).
-MAC Address: C0:4A:00:B1:FA:46 (TP-Link Technologies)
-Nmap scan report for 192.168.0.103
+MAC Address: 00:11:22:33:44:55 (TP-Link Technologies)
+Nmap scan report for 192.168.x.x
 Host is up (0.00026s latency).
-MAC Address: F4:B5:20:29:52:12 (Biostar Microtech international)
-Nmap scan report for 192.168.0.101
+MAC Address: 00:11:22:33:44:55 (Biostar Microtech international)
+Nmap scan report for 192.168.x.x
 Host is up.
 # Nmap done at Wed Oct  8 07:00:03 2025 -- 256 IP addresses (3 hosts up) scanned in 1.92 seconds
