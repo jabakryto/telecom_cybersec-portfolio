@@ -1,3 +1,4 @@
+ HEAD
 # DVWA Vulnerability Report
 
 ## 1. SQL Injection (Low)
@@ -23,3 +24,19 @@
   - Найдены пути: `/dvwa/config/`, `/dvwa/hackable/`, `/dvwa/vulnerabilities/`
 
 > Все тесты проведены в изолированной лаборатории. IP-адреса анонимизированы.
+ DVWA: Анализ уязвимостей
+Дата: 2025-09-24
+
+1. SQL Injection (уровень Low)
+   Payload: ' OR 1=1 --
+   Результат: Получен список всех пользователей (admin, gordonb, ...)
+
+2. XSS (Reflected)
+   Payload: <script>alert('XSS')</script>
+   Результат: Выполнено всплывающее окно — уязвимость подтверждена
+
+3. Brute Force
+   Логин: admin
+   Пароль: password
+   Результат: Успешный вход — слабый пароль
+ ef37a3f31f2a914698ee6f107e146685c42d1371
