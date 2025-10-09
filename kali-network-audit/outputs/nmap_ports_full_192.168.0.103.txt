@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Wed Oct  8 07:01:58 2025 as: /usr/lib/nmap/nmap -sS -Pn -T4 --min-rate 1000 -p- -oN /home/kali123/telecom_sec/kali-network-audit/outputs/nmap_ports_full_192.168.0.103.txt 192.168.0.103
+Nmap scan report for 192.168.0.103
+Host is up (0.00027s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+5040/tcp open  unknown
+5357/tcp open  wsdapi
+MAC Address: F4:B5:20:29:52:12 (Biostar Microtech international)
+
+# Nmap done at Wed Oct  8 07:03:32 2025 -- 1 IP address (1 host up) scanned in 94.36 seconds

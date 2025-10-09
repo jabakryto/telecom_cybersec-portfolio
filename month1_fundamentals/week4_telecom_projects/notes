@@ -1,0 +1,14 @@
+# Week 4: Telecom Projects
+## Telecom Protocols
+- **SS7**: сигнализация в 2G/3G → уязвимость: отслеживание местоположения
+- **Diameter**: замена SS7 в 4G → часто без шифрования
+- **GTP**: туннелирование данных → возможен DoS и перехват
+- **IMS**: IP-мультимедиа в 5G
+
+## Projects
+1. **Home Network Security Audit**  
+   - Сканирование роутера  
+   - Рекомендации: сменить пароль, отключить WPS
+2. **DVWA Vulnerability Report**  
+   - SQLi, XSS, Brute Force  
+   - Меры защиты: WAF, обновления

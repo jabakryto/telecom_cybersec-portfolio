@@ -1,0 +1,5 @@
+# Nikto Scan Output
+- OSVDB-3268: /config/ directory indexing enabled
+- OSVDB-3092: /phpinfo.php exposed
+- Cookie PHPSESSID missing HttpOnly flag
+Target: http://192.0.2.50/dvwa/

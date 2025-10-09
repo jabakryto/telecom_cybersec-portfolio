@@ -1,0 +1,3 @@
+kali-network-audit/outputs/*.pcap
+kali-network-audit/outputs/*.pcapng
+kali-network-audit/outputs/*.zip

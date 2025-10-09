@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+# Nmap Scan — Lab Environment
+Nmap scan report for 192.0.2.50
+Host is up (0.00045s latency).
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.7
+Nmap scan report for 192.0.2.60
+Host is up (0.00045s latency).
+PORT   STATE SERVICE     VERSION
+21/tcp open  ftp         vsftpd 2.3.4
+22/tcp open  ssh         OpenSSH 4.7p1
+# Nmap Scan — Lab Environment (192.0.2.0/24)
+Nmap scan report for 192.0.2.50
+Host is up (0.00045s latency).
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.7
+
+Nmap scan report for 192.0.2.60
+Host is up (0.00045s latency).
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 2.3.4
+22/tcp   open  ssh         OpenSSH 4.7p1
+=======
+
+Nmap Scan — Lab Environment
+Nmap scan report for 192.0.2.50
+Host is up (0.00045s latency).
+PORT STATE SERVICE VERSION
+80/tcp open http Apache httpd 2.4.7
+
+Nmap scan report for 192.0.2.60
+Host is up (0.00045s latency).
+PORT STATE SERVICE VERSION
+21/tcp open ftp vsftpd 2.3.4
+22/tcp open ssh OpenSSH 4.7p1
+>>>>>>> 477d6c4 (Month 2: Week 5 — SOC analysis (MITRE ATT&CK, Sigma, log analysis))

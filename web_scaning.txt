@@ -1,0 +1,15 @@
+=== Сканирование DVWA: Nikto и Dirb ===
+Дата: 2025-09-24
+
+Nikto:
+- Обнаружена уязвимость: /dvwa/login.php — возможен XSS
+- Сервер: Apache/2.4.52 (Ubuntu)
+- Опасные заголовки: Server, X-Powered-By
+
+Dirb:
+- Найдены директории:
+  http://localhost/dvwa/config/
+  http://localhost/dvwa/docs/
+  http://localhost/dvwa/hackable/
+- В /hackable/uploads/ можно загружать файлы — риск RCE при неправильной настройке
+

@@ -3,7 +3,7 @@
 + Target IP:          127.0.0.1
 + Target Hostname:    localhost
 + Target Port:        80
-+ Start Time:         2025-10-09 13:50:55 (GMT-4)
++ Start Time:         2025-10-09 15:23:03 (GMT-4)
 ---------------------------------------------------------------------------
 + Server: Apache/2.4.65 (Debian)
 + /dvwa/: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
@@ -25,7 +25,7 @@
 + /dvwa/.gitignore: .gitignore file found. It is possible to grasp the directory structure.
 + /dvwa/.dockerignore: .dockerignore file found. It may be possible to grasp the directory structure and learn more about the site.
 + 7850 requests: 0 error(s) and 16 item(s) reported on remote host
-+ End Time:           2025-10-09 13:51:04 (GMT-4) (9 seconds)
++ End Time:           2025-10-09 15:23:12 (GMT-4) (9 seconds)
 ---------------------------------------------------------------------------
 + 1 host(s) tested
 
